@@ -32,12 +32,27 @@ HelloWorld! 这是我博客的第一篇文章，个人秉承实用原则，就�
 一直想搭一个自己的Blog，无奈懒癌末期患者一直拖到现在心血来潮发现现在搭建一个静态Blog简单的一X啊，只要三步就搞定（前提是注册过 [GitHub](https://github.com/) 的帐号）
 
 1. 创建repository，创建一个`username.github.io`的repository，注意要勾选生成README
+![CreateRepo](http://terryleeorz.github.io/img/create_repo.png)
+
 2. 用github帐号登录 [Simple](http://isnowfy.github.io/simple),这步我有点犹豫，因为要输入自己的github帐号密码
+
 3.  点击`Initialize`来初始化blog，之后点击`Go`就可以开始写markdown的blog了
+![Simple](http://terryleeorz.github.io/img/simple.png)
+![WriteBlog](http://terryleeorz.github.io/img/write_blog.png)
 
-
-参考自：
+以上参考自：
 > [http://isnowfy.github.io/about-simple-cn.html](http://isnowfy.github.io/about-simple-cn.html)
+
+接下来是原创部分如何给自己的Blog添加Disqus评论功能：
+
+1. 访问[Disqus](disqus.com)注册帐号，并验证邮箱
+2. 登录后点击Add Disqus To Site
+![DisqusEntry](http://terryleeorz.github.io/img/disqus_entry.png)
+3. 填写Blog相关信息，这里要记住你填写的Disqus Short Name,点击Finish Registration
+![GenShortName](http://terryleeorz.github.io/img/gen_shortname.png)
+4. 替换自己git上生成的`username.github.io`项目中main.json文件中的disqus_shortname值为第三步中的Disqus Short Name
+5. 提交Git（不懂git具体操作请自行google）
+6. 完成！（可以刷新下自己的文章看下效果，可能需要等1~2分钟）
 <!-- markdown end -->
 </div>
 <div class="entry" id="main">
@@ -49,16 +64,32 @@ HelloWorld! 这是我博客的第一篇文章，个人秉承实用原则，就�
 <p>一直想搭一个自己的Blog，无奈懒癌末期患者一直拖到现在心血来潮发现现在搭建一个静态Blog简单的一X啊，只要三步就搞定（前提是注册过 <a href="https://github.com/">GitHub</a> 的帐号）</p>
 
 <ol>
-<li>创建repository，创建一个<code>username.github.io</code>的repository，注意要勾选生成README</li>
-<li>用github帐号登录 <a href="http://isnowfy.github.io/simple">Simple</a>,这步我有点犹豫，因为要输入自己的github帐号密码</li>
-<li>点击<code>Initialize</code>来初始化blog，之后点击<code>Go</code>就可以开始写markdown的blog了</li>
+<li><p>创建repository，创建一个<code>username.github.io</code>的repository，注意要勾选生成README
+<img src="http://terryleeorz.github.io/img/create_repo.png" alt="CreateRepo" title=""></p></li>
+<li><p>用github帐号登录 <a href="http://isnowfy.github.io/simple">Simple</a>,这步我有点犹豫，因为要输入自己的github帐号密码</p></li>
+<li><p>点击<code>Initialize</code>来初始化blog，之后点击<code>Go</code>就可以开始写markdown的blog了
+<img src="http://terryleeorz.github.io/img/simple.png" alt="Simple" title="">
+<img src="http://terryleeorz.github.io/img/write_blog.png" alt="WriteBlog" title=""></p></li>
 </ol>
 
-<p>参考自：</p>
+<p>以上参考自：</p>
 
 <blockquote>
   <p><a href="http://isnowfy.github.io/about-simple-cn.html">http://isnowfy.github.io/about-simple-cn.html</a></p>
 </blockquote>
+
+<p>接下来是原创部分如何给自己的Blog添加Disqus评论功能：</p>
+
+<ol>
+<li>访问<a href="disqus.com">Disqus</a>注册帐号，并验证邮箱</li>
+<li>登录后点击Add Disqus To Site
+<img src="http://terryleeorz.github.io/img/disqus_entry.png" alt="DisqusEntry" title=""></li>
+<li>填写Blog相关信息，这里要记住你填写的Disqus Short Name,点击Finish Registration
+<img src="http://terryleeorz.github.io/img/gen_shortname.png" alt="GenShortName" title=""></li>
+<li>替换自己git上生成的<code>username.github.io</code>项目中main.json文件中的disqus_shortname值为第三步中的Disqus Short Name</li>
+<li>提交Git（不懂git具体操作请自行google）</li>
+<li>完成！（可以刷新下自己的文章看下效果，可能需要等1~2分钟）</li>
+</ol>
 <!-- content end -->
 </div>
 <br>
